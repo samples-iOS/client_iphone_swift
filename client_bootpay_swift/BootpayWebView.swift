@@ -19,7 +19,7 @@ protocol BootpayRequestProtocol {
 class BootpayWebView: UIView {
     var wv: WKWebView!
     
-    final let BASE_URL = "https://dev-app.bootpay.co.kr"
+    final let BASE_URL = "https://app.bootpay.co.kr"
     final let cdnArray = [
         "https://code.jquery.com/jquery-1.12.4.min.js",
         "https://d-cdn.bootpay.co.kr/bootpay-1.0.0.min.js"
